@@ -1,0 +1,2 @@
+start AnythingSound.html
+exit
