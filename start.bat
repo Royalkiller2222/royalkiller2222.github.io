@@ -1,2 +1,0 @@
-start AnythingSound.html
-exit
