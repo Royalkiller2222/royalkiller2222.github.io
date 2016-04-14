@@ -23,5 +23,5 @@ Special thanks to
  
 Team Manager/Main Dev - Carter Hembree
 Level Design - Noah Shoup
-Efficiency Informant - Charles Richards 
+Efficiency Informant - Charles Richards
 
