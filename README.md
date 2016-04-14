@@ -15,7 +15,7 @@ I found a bug, who should I report this too?
 
 Who is Iris?
   
-  -We really don’t know, try asking Iris it yourself.
+  -We really don’t know, try asking Iris yourself.
 
 BreakMeso:
 
@@ -31,6 +31,8 @@ Our goal is to showcase the potential HTML5 Canvas element while making a fun an
 Special thanks to
  
 Team Manager/Main Dev - Carter Hembree
+
 Level Design - Noah Shoup
+
 Efficiency Informant - Charles Richards
 
