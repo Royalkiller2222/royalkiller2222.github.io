@@ -26,11 +26,21 @@
 				timerId = function(){
 					setInterval(countdown, 1000);
 				};
-
+				/*		function save(name) {
+			var myStorage = localStorage;
+			var jsonString = '{\
+	"levelName": "'+name+'",\
+	"playerStart": [0, 0],\
+	"endGoal": [1, 1]\
+'
+			localStorage.setItem("anythingLevel"+name, jsonString);
+			jsonString = localStorage.getItem("anythingLevel"+name);
+		}*/
 //				onload="timer()"
 		var editing = false;
         var canaddlevel = false;
         var hoveringPlay = false;
+		var hoveringEditor = false;
         var mouseX = 0;
         var mouseY = 0;
 				var countSec = 0;
@@ -111,7 +121,6 @@
 					};
 				}
 				
-
 /*ctx1.addEventListener("click", funciton() {
 	  startgem();
 });
@@ -149,7 +158,7 @@
 	        if (mouseY >= 250) {
 	          if (mouseY <= 330) {
 	            hoveringEditor = true;
-	            //canaddlevel = true;
+	            canaddlevel = true;
 	          }
 	            else {
                 hoveringEditor = false
@@ -350,6 +359,7 @@
 //					sameY();
 //					start_x = start_x + enemy_spdX
 //					start_y = start_y + enemy_spdY
+
 					if (start_x == player_x){//Tests Up/Down
 						if (start_y <= player_y){//Down
 							enemy_spdY = 1
@@ -443,7 +453,6 @@
 	
 //				the intro xx
 				drawEntity = function() {
-
 					ctx.fillStyle = "#000000";
 					ctx.fillText(player_name, player_x, player_y);
 				};
@@ -738,7 +747,6 @@
 						ctx.fillRect(370,370,120,20)
 						ctx.fillRect(290,310,80,20)
 						ctx.fillRect(370,250,120,20)
-
 						ctx.fillRect(290,190,80,20)
 						ctx.fillRect(370,130,120,20)
 						ctx.fillRect(320,460,80,30)
